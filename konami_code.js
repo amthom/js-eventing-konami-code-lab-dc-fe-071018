@@ -7,6 +7,11 @@ window.onload = function (e){
   function init() {
     // Write your JavaScript code inside the init() function
     console.log("== init ==");
+
+    let bodyArray = document.getElementsByTagName("body");
+    console.log("bodyArray:", bodyArray);
+
+    bodyArray[0].addEventListener("keydown", onKeyDownHandler);
     }
   init();
 }
