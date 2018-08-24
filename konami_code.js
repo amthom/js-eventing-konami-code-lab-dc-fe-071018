@@ -19,14 +19,7 @@ window.onload = function (e){
 
       if (e.which === 37) {
         console.log("37");
-      } else if (e.which === 38) {
-        console.log("38");
-      } else if (e.which === 39) {
-        console.log("39");
-      } else if (e.which === 40) {
-        console.log("40");
-      }
-    }
+      } 
     }
   init();
 }
