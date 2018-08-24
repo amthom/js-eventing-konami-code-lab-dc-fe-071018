@@ -14,8 +14,8 @@ window.onload = function (e){
     bodyArray[0].addEventListener("keydown", onKeyDownHandler);
 
     function onKeyDownHandler(e) {
-      console.log('== onKeyDownHandler ==')
-
+      console.log('== onKeyDownHandler ==');
+      console.log("e.which", e.which);
     }
     }
   init();
