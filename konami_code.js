@@ -12,6 +12,11 @@ window.onload = function (e){
     console.log("bodyArray:", bodyArray);
 
     bodyArray[0].addEventListener("keydown", onKeyDownHandler);
+
+    function onKeyDownHandler(e) {
+      console.log('== onKeyDownHandler ==')
+
+    }
     }
   init();
 }
